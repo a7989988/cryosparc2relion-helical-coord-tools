@@ -6,7 +6,7 @@ This toolkit addresses two major technical challenges in helical reconstruction:
 
 1. Curvature Adaptation: Converting cryoSPARC coordinates to RELION start-end formats while segmenting flexible filaments (e.g., every 10 particles) to mitigate bending artifacts.
 
-2.　Filament ID & FSC Restoration: Re-assigning true physical filament IDs back to extracted particles using spatial KD-Tree matching and clearing _rlnRandomSubset metadata to ensure unbiased half-map assignment during gold-standard FSC estimation.
+2. Filament ID & FSC Restoration: Re-assigning true physical filament IDs back to extracted particles using spatial KD-Tree matching and clearing _rlnRandomSubset metadata to ensure unbiased half-map assignment during gold-standard FSC estimation.
 
 Overview of Scripts
 This repository contains three distinct Python scripts depending on your processing needs:
