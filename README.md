@@ -14,7 +14,7 @@ This repository contains three distinct Python scripts depending on your process
 
 **fix_fibril_ID_reference.py**: Performs basic micrograph-level STAR file splitting without 10-particle segmentation, preserving the original cryoSPARC _rlnHelicalTubeIDs as a spatial reference library.
 
-**fix_fibrilID_int_rmsubset.py**: Maps extracted particles in RELION back to the reference library from fix_fibril_ID_reference.py using spatial nearest-neighbor search (scipy.spatial.KDTree). It restores continuous tube IDs and strips _rlnRandomSubset to force RELION to perform a fresh, unbiased half-map separation.
+**fix_fibril_ID_int_rmsubset.py**: Maps extracted particles in RELION back to the reference library from fix_fibril_ID_reference.py using spatial nearest-neighbor search (scipy.spatial.KDTree). It restores continuous tube IDs and strips _rlnRandomSubset to force RELION to perform a fresh, unbiased half-map separation.
 
 Prerequisites & Installation
 Python 3.6.5
