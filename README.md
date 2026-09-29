@@ -56,7 +56,7 @@ Use cryolo_boxmanager_tools.py to create RELION-compatible autopick STAR files:
      cryolo_boxmanager_tools.py createAutopick -m 'MotionCorr/job126/rawdata/*frames.mrc' -c 'your_c2r_helical_tool.py_output/*.star' -o output/
 
 Step 4: RELION 5 Compatibility Patch
-Because cryolo_boxmanager_tools.py output formats were designed for RELION 3, you must manually edit the header of the resulting autopick.star files to work with RELION 5:
+Because cryolo_boxmanager_tools.py output formats were designed for older RELION, you must manually edit the header of the resulting autopick.star files to work with RELION 5:
 
 Add and replace the top lines of autopick.star with the following header:
 
