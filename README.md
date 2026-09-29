@@ -8,7 +8,8 @@ This toolkit addresses two major technical challenges in helical reconstruction:
 
 2. Filament ID & FSC Restoration: Re-assigning true physical filament IDs back to extracted particles using spatial KD-Tree matching and clearing _rlnRandomSubset metadata to ensure unbiased half-map assignment during gold-standard FSC estimation.
 
-Overview of Scripts
+Overview of Scripts：
+
 This repository contains three distinct Python scripts depending on your processing needs:
 
 **c2r_helical_tool.py**: Reads csparc2star.py output, converts particle coordinates to RELION start-end format (handling Y-axis coordinate inversion), segments fibrils into 10-particle intervals, and splits the dataset into micrograph-level STAR files.
