@@ -25,10 +25,10 @@ Required packages: scipy, numpy
 
 External dependency: PyEM (csparc2star.py) and cryolo
 
-git clone https://github.com/a7989988/cryosparc2relion-helical-coord-tools.git
+    git clone https://github.com/a7989988/cryosparc2relion-helical-coord-tools.git
 
 
-pip install numpy scipy
+    pip install numpy scipy
 
 Workflow Instructions & Usage
 
